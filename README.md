@@ -17,26 +17,27 @@ Optional dictionary (rockyou-style) cracking mode (local file required).
 Clear, beginner-friendly code — great for learning string handling, randomness and basic security checks.
 
 📦 Features
+Menu-driven CLI
 
-Menu-driven CLI:
+1 — Evaluate password strength
 
-Evaluate password strength
+2 — Analyze & improve a password
 
-Analyze & improve a password
+3 — Generate a secure password
 
-Generate a secure password
+4 — Try to crack a password with a local wordlist
 
-Try to crack a password with a local wordlist
+5 — Exit
 
-Exit
-
-Strength scoring (0–11) factoring:
+Strength scoring (0–11) factors
 
 Length tiers
 
 Presence of lower-case, upper-case, digits, special characters
 
 Blacklist check against ~100 common passwords
+
+Utilities
 
 Improvement routine that injects missing character types and extends length when needed.
 
